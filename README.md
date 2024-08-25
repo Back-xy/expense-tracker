@@ -19,6 +19,30 @@ This is a simple command-line interface (CLI) application inspired by [roadmap.s
 
 ## Usage
 
-- **To add a new expense**: 
-  ```bash
-  node index.js add --description "Lunch" --amount 20
+- **To add a new expense**:
+    ```bash
+    node index.js add --description "Lunch" --amount 20
+- **To update an existing expense's details**:
+    ```bash
+        node index.js update --id <expense-id> --description "New description" --amount 25
+
+- **To delete an expense by its ID**:
+bash
+Copy code
+node index.js delete --id <expense-id>
+To list all expenses:
+bash
+Copy code
+node index.js list
+To view a summary of expenses:
+bash
+Copy code
+node index.js summary
+To view a summary of expenses for a specific month:
+bash
+Copy code
+node index.js summary --month 8
+To export expenses to a CSV file:
+bash
+Copy code
+node index.js export
