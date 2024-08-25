@@ -14,29 +14,30 @@ This is a simple command-line interface (CLI) application inspired by [roadmap.s
 ## Installation
 
 1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Ensure you have Node.js installed.
+2. Ensure you have Node.js installed.
+3. Navigate to the project directory.
+4. install dependecies npm `npm install`
 
 ## Usage
 
 - **To add a new expense**:
     ```bash
-    node index.js add --description "Lunch" --amount 20
+    node expense-tracker add --description "Lunch" --amount 20
 - **To update an existing expense's details**:
     ```bash
-    node index.js update --id <expense-id> --description "New description" --amount 25
+    node expense-tracker update --id <expense-id> --description "New description" --amount 25
 - **To delete an expense by its ID**:
     ```bash
-    node index.js delete --id <expense-id>
+    node expense-tracker delete --id <expense-id>
 - **To list all expenses**:
     ```bash
-    node index.js list
+    node expense-tracker list
 - **To view a summary of expenses**:
     ```bash
-    node index.js summary
+    node expense-tracker summary
 - **To view a summary of expenses for a specific month**:
     ```bash
-    node index.js summary --month 8
+    node expense-tracker summary --month 8
 - **To export expenses to a CSV file**:
     ```bash
-    node index.js export
+    node expense-tracker export
