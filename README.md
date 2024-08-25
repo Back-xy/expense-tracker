@@ -16,7 +16,7 @@ This is a simple command-line interface (CLI) application inspired by [roadmap.s
 1. Clone the repository to your local machine.
 2. Ensure you have Node.js installed.
 3. Navigate to the project directory.
-4. install dependecies npm `npm install`
+4. Install dependecies `npm install`
 
 ## Usage
 
